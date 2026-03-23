@@ -42,6 +42,6 @@ Para a montagem do sistema serão utilizados os seguintes componentes (desconsid
 
 18/05 - Teste de campo;
 
-01/06 - Demonstração do protótipo;
+01/06 - Entrega final.
 
-15/06 - Entrega final.
+
