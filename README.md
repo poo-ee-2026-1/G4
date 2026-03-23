@@ -7,11 +7,11 @@ Davi Jared de Souza Campos - 202503336;
 
 João Francisco Ramos Araújo - 202503358.
 
-# Sensor de Estacionamento Utilizando Java e Arduíno
+# Gerenciamento de Vagas de Estacionamento Utilizando Java e Arduíno
 ## Introdução
 <p align="justify">
-O projeto se trata de um sensor de estacionamento (proximidade) para carros, caseiro e de baixo custo, utilizando principalmente de um sensor ultrassônico para a detecção de obstáculos,  além de dois microprocessadores, um Arduíno Uno que lerá as informações dadas pelo sensor ultrassônico e as enviará para um hardware programado em Java que utilizará dos dados para operar o sistema.
-A ideia central do projeto é criar um sistema capaz de medir a distância entre o carro e quaisquer obstáculo atrás dele. Assim que o objeto estiver muito próximo, o sistema emitirá um alerta sonoro para avisar o motorista.
+O projeto se trata de um gerenciador de vagas de estacionamento com interface visual demonstrando quais vagas estariam ocupadas e quais estariam livres, para detectar quais vagas estariam livres, seriam usados sensores de proximidade, caso o sensor detectasse um objeto a vaga estaria ocupada e isso seria demonstrado na interface (em formato de "grid"), os sensores de proximidade seriam feitos utilizando principalmente de um sensor ultrassônico para a detecção de veículos, além de dois microprocessadores, um Arduíno Uno que lerá as informações dadas pelo sensor ultrassônico e as enviará para um hardware programado em Java que utilizará dos dados para operar o sistema, gerenciar o banco de dados e formatar a interface visual.
+A ideia central do projeto é criar um sistema capaz de medir a distância entre o carro e quaisquer obstáculo atrás dele. Assim que o objeto estiver muito próximo, o sistema emitirá um alerta sonoro (temporizado) para avisar o motorista e enviará o dado sobre a ocupação da vaga na qual ocorrera a detecção para o banco de dados que gerenciará as informações e aplicará ao grid, assim que a detecção for interrompida o sistema contabilizará a vaga como "livre", alterando a informação visual dentro do grid
 </p>
 
 ## Objetivos do Projeto
