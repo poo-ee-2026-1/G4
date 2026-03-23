@@ -9,8 +9,10 @@ João Francisco Ramos Araújo - 202503358.
 
 # Sensor de Estacionamento Utilizando Java e Arduíno
 ## Introdução
+<p align="justify">
 O projeto se trata de um sensor de estacionamento (proximidade) para carros, caseiro e de baixo custo, utilizando principalmente de um sensor ultrassônico para a detecção de obstáculos,  além de dois microprocessadores, um Arduíno Uno que lerá as informações dadas pelo sensor ultrassônico e as enviará para um hardware programado em Java que utilizará dos dados para operar o sistema.
 A ideia central do projeto é criar um sistema capaz de medir a distância entre o carro e quaisquer obstáculo atrás dele. Assim que o objeto estiver muito próximo, o sistema emitirá um alerta sonoro para avisar o motorista.
+</p>
 
 ## Objetivos do Projeto
 O principal objetivo deste projeto é desenvolver um sistema eletrônico capaz de:
