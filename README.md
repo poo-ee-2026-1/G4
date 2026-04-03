@@ -12,9 +12,7 @@ João Francisco Ramos Araújo - 202503358.
 ## Introdução
 
 <p align="justify">
-O monitoramento de espaços físicos em tempo real é uma das bases da automação moderna e das Smart Cities. Este projeto propõe o desenvolvimento de um sistema de gerenciamento de estacionamento que integra hardware (Arduino) e software (Java), utilizando os princípios da Programação Orientada a Objetos (POO) para modelar e controlar a ocupação de vagas de forma eficiente.
-
-O sistema utiliza sensores ultrassônicos para detectar a presença de veículos. Os dados capturados pelo hardware são processados por uma aplicação Java, que gerencia o estado de cada vaga e fornece uma interface visual (grid) para o usuário. O foco principal é a transição de sinais físicos para objetos lógicos, permitindo o controle de alertas sonoros e a persistência de dados. O sistema contará com uma interação de usuário com sistema de login para casos de funcionários precisarem corrigir erros falhas dos sensores, 
+O monitoramento de espaços físicos em tempo real é uma das bases da automação moderna e das Smart Cities. Este projeto propõe o desenvolvimento de um sistema de gerenciamento de estacionamento que integra hardware (Arduino) e software (Java), utilizando os princípios da Programação Orientada a Objetos (POO) para modelar e controlar a ocupação de vagas de forma eficiente. O sistema utiliza sensores ultrassônicos para detectar a presença de veículos. Os dados capturados pelo hardware são processados por uma aplicação Java, que gerencia o estado de cada vaga e fornece uma interface visual (grid) para o usuário. O foco principal é a transição de sinais físicos para objetos lógicos, permitindo o controle de alertas sonoros e a persistência de dados. O sistema contará com uma interação de usuário com sistema de login para casos de funcionários precisarem corrigir erros falhas dos sensores.
 </p>
 
 # Descrição do Problema
