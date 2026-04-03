@@ -8,7 +8,7 @@ Davi Jared de Souza Campos - 202503336;
 
 João Francisco Ramos Araújo - 202503358.
 
-# Gerenciamento de Vagas de Estacionamento Utilizando Java e Arduíno
+# Gerenciador de Vagas Inteligente Utilizando Java e Arduíno
 # Introdução
 
 <p align="justify">
