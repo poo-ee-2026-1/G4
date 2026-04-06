@@ -57,7 +57,7 @@ Biblioteca Serial (jSerialComm/JSSC): Para integração Java-Arduino.
 ## Hardware:
 1x Arduino Uno;
 
-1x Sensor Ultrassônico HC-SR04;
+4x Sensor Ultrassônico HC-SR04;
 
 1x Buzzer Ativo;
 
