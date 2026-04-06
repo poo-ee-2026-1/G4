@@ -63,8 +63,11 @@ Biblioteca Serial (jSerialComm/JSSC): Para integração Java-Arduino.
 
 Protoboard e Jumpers.
 
+# Orçamento do Projeto
 
-# Diagrama de Classes
+<img width="524" height="191" alt="image" src="https://github.com/user-attachments/assets/1bcb9344-a032-4176-a63d-4b5aa46d778b" />
+
+# Diagrama de Classes UML
 
 <img width="597" height="749" alt="image" src="https://github.com/user-attachments/assets/4219fcae-e3d4-4f62-b216-ccd0b8bcbe12" />
 
