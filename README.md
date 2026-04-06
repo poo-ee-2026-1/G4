@@ -63,6 +63,11 @@ Biblioteca Serial (jSerialComm/JSSC): Para integração Java-Arduino.
 
 Protoboard e Jumpers.
 
+
+# Diagrama de Classes
+
+<img width="597" height="749" alt="image" src="https://github.com/user-attachments/assets/4219fcae-e3d4-4f62-b216-ccd0b8bcbe12" />
+
 # Cronograma
 23/03 - Apresentação do cronograma e escopo do projeto; 
 
