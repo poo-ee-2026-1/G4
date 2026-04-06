@@ -67,6 +67,9 @@ Protoboard e Jumpers.
 
 <img width="524" height="191" alt="image" src="https://github.com/user-attachments/assets/1bcb9344-a032-4176-a63d-4b5aa46d778b" />
 
+# Modelagem Inicial
+<img width="599" height="716" alt="image" src="https://github.com/user-attachments/assets/618ab284-4b86-4b36-956e-2c60324647ef" />
+
 # Diagrama de Classes UML
 
 <img width="597" height="749" alt="image" src="https://github.com/user-attachments/assets/4219fcae-e3d4-4f62-b216-ccd0b8bcbe12" />
