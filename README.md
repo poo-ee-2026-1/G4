@@ -72,7 +72,8 @@ Protoboard e Jumpers.
 
 # Diagrama de Classes UML
 
-<img width="597" height="749" alt="image" src="https://github.com/user-attachments/assets/4219fcae-e3d4-4f62-b216-ccd0b8bcbe12" />
+<img width="644" height="787" alt="image" src="https://github.com/user-attachments/assets/a8b35192-f66e-4c3a-8453-a1ef7439890c" />
+
 
 # Cronograma
 23/03 - Apresentação do cronograma e escopo do projeto; 
@@ -85,6 +86,10 @@ Protoboard e Jumpers.
 
 18/05 - Teste de campo;
 
+<img width="995" height="680" alt="image" src="https://github.com/user-attachments/assets/2f29a078-bf24-4f8d-8f87-c0515b407f9f" />
+
+
 01/06 - Entrega final.
+
 
 
