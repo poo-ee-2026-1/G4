@@ -88,6 +88,8 @@ Protoboard e Jumpers.
 
 01/06 - Entrega final.
 
+# Entrega Parcial 3 (20/04/2026)
+
 <img width="991" height="683" alt="image" src="https://github.com/user-attachments/assets/960b2f0c-0c86-4944-a321-8d4b9b3935e8" />
 
 
