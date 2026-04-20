@@ -86,10 +86,11 @@ Protoboard e Jumpers.
 
 18/05 - Teste de campo;
 
-<img width="995" height="680" alt="image" src="https://github.com/user-attachments/assets/2f29a078-bf24-4f8d-8f87-c0515b407f9f" />
-
-
 01/06 - Entrega final.
+
+<img width="991" height="683" alt="image" src="https://github.com/user-attachments/assets/960b2f0c-0c86-4944-a321-8d4b9b3935e8" />
+
+
 
 
 
