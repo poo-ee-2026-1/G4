@@ -92,7 +92,32 @@ Protoboard e Jumpers.
 
 <img width="991" height="683" alt="image" src="https://github.com/user-attachments/assets/960b2f0c-0c86-4944-a321-8d4b9b3935e8" />
 
+## Aplicação Inicial
 
+A aplicação possui uma interface gráfica desenvolvida em JavaFX, onde o usuário pode visualizar, em tempo real, a situação de quatro vagas de estacionamento organizadas em formato de grade. Cada vaga apresenta um estado visual simples e intuitivo:
 
+Verde: vaga livre
+Vermelho: vaga ocupada
 
+Além da visualização pública para clientes, o sistema também conta com um modo de funcionário, no qual colaboradores autorizados podem realizar login para corrigir manualmente o estado de vagas em casos de falha dos sensores ou inconsistências no sistema. Nesta versão inicial, os sensores são simulados por software, alterando aleatoriamente a ocupação das vagas para representar a chegada e saída de veículos. Essa estratégia permite testar toda a estrutura orientada a objetos do sistema, incluindo:
 
+gerenciamento de vagas;
+atualização automática de estados;
+autenticação de funcionários;
+alteração manual de vagas;
+navegação entre telas do sistema.
+
+A arquitetura foi organizada utilizando conceitos de Programação Orientada a Objetos, com classes responsáveis por entidades específicas, como:
+
+Vaga
+Gerenciador
+Funcionário
+SensorSimulado
+
+Essa primeira aplicação do projeto serve de base para as próximas etapas que incluirão:
+
+integração com sensores físicos reais;
+comunicação serial entre microcontrolador e Java;
+registro histórico de uso das vagas;
+melhorias visuais na interface;
+expansão para múltiplos setores de estacionamento.
