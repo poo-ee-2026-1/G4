@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER"
+      spacing="15"
+      xmlns="http://javafx.com/javafx/21"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="SimulInterface.PrimaryController">
+
+    <padding>
+        <Insets top="20"
+                right="20"
+                bottom="20"
+                left="20"/>
+    </padding>
+
+    <children>
+
+        <Label text="SIMULAÇÃO DE ESTACIONAMENTO"
+               style="-fx-font-size: 24px;
+                      -fx-font-weight: bold;"/>
+
+        <Label text="Cliente"/>
+
+        <TextField fx:id="campoNome"
+                   promptText="Nome"
+                   prefWidth="300"/>
+
+        <TextField fx:id="campoPlaca"
+                   promptText="Placa"
+                   prefWidth="300"/>
+
+        <Button text="Entrar como Cliente"
+                onAction="#entrarCliente"
+                prefWidth="300"/>
+
+        <Label text="Funcionário"/>
+
+        <TextField fx:id="campoLogin"
+                   promptText="Login"
+                   prefWidth="300"/>
+
+        <PasswordField fx:id="campoSenha"
+                       promptText="Senha"
+                       prefWidth="300"/>
+
+        <Button text="Entrar como Funcionário"
+                onAction="#entrarFuncionario"
+                prefWidth="300"/>
+
+        <Label fx:id="mensagem"/>
+
+    </children>
+
+</VBox>

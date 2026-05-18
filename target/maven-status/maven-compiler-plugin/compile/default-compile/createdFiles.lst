@@ -1,0 +1,11 @@
+SimulInterface\PrimaryController.class
+SimulInterface\Pessoa.class
+SimulInterface\StatusVaga.class
+SimulInterface\App.class
+SimulInterface\Gerenciador.class
+SimulInterface\Funcionario.class
+SimulInterface\SensorSimulado.class
+SimulInterface\SecondaryController.class
+module-info.class
+SimulInterface\Cliente.class
+SimulInterface\Vaga.class
