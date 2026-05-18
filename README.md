@@ -137,10 +137,12 @@ Foto do Buzzer passivo 5V utilizado
 
 ## Sistema Montado
 Vista Superior
+
 <img width="720" height="1280" alt="WhatsApp Image 2026-05-18 at 13 51 59" src="https://github.com/user-attachments/assets/62b84920-3e23-4a5d-bc95-0c3d76d461d6" />
 
 
 Vista Lateral
+
 <img width="720" height="1280" alt="WhatsApp Image 2026-05-18 at 13 53 32" src="https://github.com/user-attachments/assets/3430b68d-ca77-4fac-b146-d6056a5c2705" />
 
 
