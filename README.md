@@ -124,32 +124,26 @@ expansão para múltiplos setores de estacionamento.
 
 # Hardware
 <img width="1220" height="835" alt="WhatsApp Image 2026-05-18 at 13 55 50" src="https://github.com/user-attachments/assets/d9b1f656-386a-43a1-8b5f-dd12f208c3bf" />
-
 Foto do Arduíno Uno(R3) utilizado
 
 
 <img width="720" height="1280" alt="WhatsApp Image 2026-05-18 at 13 54 23" src="https://github.com/user-attachments/assets/288d449f-225c-4f48-b062-98e4a2210dfe" />
-
 Foto do sensor ultrassônico (HC-SR04) utilizado
 
 
 <img width="1220" height="935" alt="WhatsApp Image 2026-05-18 at 13 56 39" src="https://github.com/user-attachments/assets/e05897fd-a11c-4424-a3e4-f85b6bcd74f9" />
-
 Foto do Buzzer passivo 5V utilizado
 
 
 ## Sistema Montado
 <img width="720" height="1280" alt="WhatsApp Image 2026-05-18 at 13 51 59" src="https://github.com/user-attachments/assets/62b84920-3e23-4a5d-bc95-0c3d76d461d6" />
-
 Vista Superior
 
 
 <img width="720" height="1280" alt="WhatsApp Image 2026-05-18 at 13 53 32" src="https://github.com/user-attachments/assets/3430b68d-ca77-4fac-b146-d6056a5c2705" />
-
 Vista Lateral
 
 
 ## Tabela de Ligações
 <img width="205" height="233" alt="image" src="https://github.com/user-attachments/assets/fb1ebe9e-75cc-4ca7-9304-390c9c98ece5" />
-
 Observações: todos os sensores conectados em 5V e GND comun, idealmente, os sensores são lidos um por vez
