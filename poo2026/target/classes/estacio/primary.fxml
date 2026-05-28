@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER"
+      spacing="15"
+
+      xmlns="http://javafx.com/javafx/21"
+
+      xmlns:fx="http://javafx.com/fxml/1"
+
+      fx:controller="estacio.PrimaryController">
+
+    <padding>
+        <Insets top="20"
+                right="20"
+                bottom="20"
+                left="20"/>
+    </padding>
+
+    <children>
+
+        <Label text="ESTACIONAMENTO INTELIGENTE"/>
+
+        <TextField fx:id="campoNome"
+                   promptText="Nome"/>
+
+        <TextField fx:id="campoPlaca"
+                   promptText="Placa"/>
+
+        <Button text="Entrar Cliente"
+                onAction="#entrarCliente"/>
+
+        <Separator/>
+
+        <TextField fx:id="campoLogin"
+                   promptText="Login"/>
+
+        <PasswordField fx:id="campoSenha"
+                       promptText="Senha"/>
+
+        <Button text="Entrar Funcionário"
+                onAction="#entrarFuncionario"/>
+
+        <Label fx:id="mensagem"/>
+
+    </children>
+
+</VBox>
