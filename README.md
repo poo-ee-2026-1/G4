@@ -10,15 +10,16 @@ João Francisco Ramos Araújo - 202503358.
 
 # Gerenciador de Vagas Inteligente Utilizando Java e Arduíno
 # Introdução
+## Descrição do projeto
 
 <p align="justify">
 O monitoramento de espaços físicos em tempo real é uma das bases da automação moderna e das Smart Cities. Este projeto propõe o desenvolvimento de um sistema de gerenciamento de estacionamento que integra hardware (Arduino) e software (Java), utilizando os princípios da Programação Orientada a Objetos (POO) para modelar e controlar a ocupação de vagas de forma eficiente. O sistema utiliza sensores ultrassônicos para detectar a presença de veículos. Os dados capturados pelo hardware são processados por uma aplicação Java, que gerencia o estado de cada vaga e fornece uma interface visual (grid) para o usuário. O foco principal é a transição de sinais físicos para objetos lógicos, permitindo o controle de alertas sonoros e a persistência de dados. O sistema contará com uma interação de usuário com sistema de login para casos de funcionários precisarem corrigir erros falhas dos sensores.
 </p>
 
-## Descrição do Problema
+## Descrição do Problema e Solução
 
 <p align="justify">
-A gestão manual de estacionamentos frequentemente resulta em ineficiência no fluxo de veículos e falta de dados precisos sobre ocupação. Sem um sistema automatizado, o motorista perde tempo procurando vagas, e o gestor não possui um histórico de uso. A integração entre sensores de baixo custo e um software robusto em Java resolve esse gap, transformando sinais analógicos em informações digitais estruturadas.
+A gestão eficiente de vagas em estacionamentos representa um desafio devido à necessidade de manter informações atualizadas sobre a ocupação dos espaços disponíveis. Em sistemas convencionais, o controle é frequentemente realizado manualmente, o que pode resultar em erros operacionais, atrasos na identificação de vagas livres e dificuldades no acompanhamento da utilização do estacionamento. Nesse contexto, existe a necessidade de uma solução computacional capaz de monitorar e gerenciar as vagas de forma centralizada, oferecendo informações em tempo real para usuários e administradores. Além disso, a integração com dispositivos de hardware, como sensores ultrassônicos e sistemas de alerta, pode aumentar a confiabilidade das informações e reduzir a dependência da intervenção humana. Assim, o projeto propõe o desenvolvimento de um sistema de estacionamento inteligente que permita o controle das vagas, o registro dos veículos estacionados e a visualização do estado do estacionamento por meio de uma interface gráfica, proporcionando maior eficiência operacional e melhor experiência aos usuários.
 </p>
 
 ## Motivação
@@ -46,9 +47,40 @@ Interface Visual: Desenvolver um grid dinâmico que atualize o status das vagas 
 
 Feedback ao Usuário: Implementar alertas sonoros via Buzzer para auxílio em manobras de proximidade.
 
+# Funcionalidades do Projeto
+## Cliente
+Inserir nome e placa do veículo.
+
+Solicitar reserva de vaga.
+
+Visualizar vagas disponíveis e ocupadas.
+
+Consultar informações do veículo estacionado.
+## Funcionário
+Realizar login administrativo.
+
+Visualizar o estado de todas as vagas.
+
+Liberar vagas manualmente.
+
+Atualizar o estado das vagas.
+
+## Sistema
+Gerenciamento automático das vagas.
+
+Controle de ocupação.
+
+Simulação de sensores.
+
+Atualização visual em tempo real.
+
+Integração preparada para Arduino.
+
 # Materiais e Tecnologias
 ## Software:
 Java (JDK 21): Lógica do sistema e Interface Gráfica.
+
+Apache Maven (gestão de dependências e automação de compilação)
 
 Arduino IDE (C++): Programação do microcontrolador.
 
@@ -62,6 +94,36 @@ Biblioteca Serial (jSerialComm/JSSC): Para integração Java-Arduino.
 1x Buzzer Ativo;
 
 Protoboard e Jumpers.
+
+# Fluxo de Funcionamento
+
+1: O sistema é iniciado.
+
+2: O usuário escolhe entre Cliente ou Funcionário.
+
+3: O cliente informa nome e placa.
+
+4: O sistema procura uma vaga livre.
+
+5: A vaga é reservada.
+
+6: A interface exibe o estado atualizado das vagas.
+
+7: Sensores ou comandos administrativos podem alterar o estado das vagas.
+
+8: A interface é atualizada automaticamente.
+
+# Funcionamento 
+Cada sensor monitora uma vaga.
+
+Quando um veículo é detectado:
+
+a vaga passa para ocupada;
+
+o sistema atualiza automaticamente a interface;
+
+um buzzer emite um alerta para situações de detecção.
+
 
 # Orçamento do Projeto
 
